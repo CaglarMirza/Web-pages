@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Desing - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href=""></a>HOME</li>
+                    <li><a href=""></a>ABOUT</li>
+                    <li><a href=""></a>COURSE</li>
+                    <li><a href=""></a>BLOG</li>
+                    <li><a href=""></a>CONTACT</li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()""></i>
+    </nav>
+<div class=" text-box">
+                <h1>World's Biggest University</h1>
+                <p>Making website is now one of the easiest thing in the world.You just need to learn HTML, CSS,<br>
+                    Javascript
+                    and you are good to go.</p>
+                <a href="" class="hero-btn">Visit Us To More</a>
+                </div>
+    </section>
+
+    <!-------- Course ------->
+<section class="course">
+    <h1>Course We Offer</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius exercitationem numquam, rem, sequi
+                sint beatae ipsum quos error animi nobis dolor? Cum necessitatibus molestiae assumenda inventore,
+                sapiente at delectus doloribus!</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius exercitationem numquam, rem, sequi
+                sint beatae ipsum quos error animi nobis dolor? Cum necessitatibus molestiae assumenda inventore,
+                sapiente at delectus doloribus!</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius exercitationem numquam, rem, sequi
+                sint beatae ipsum quos error animi nobis dolor? Cum necessitatibus molestiae assumenda inventore,
+                sapiente at delectus doloribus!</p>
+        </div>
+    </div>
+
+</section>
+<!-------campus------>
+
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <dic class="row">
+        <div class="campus-col">
+            <img src="./images/london.png" alt="">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="./images/newyork.png" alt="">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="./images/washington.png" alt="">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+    </dic>
+
+</section>
+
+
+
+
+    <!-------Javascript for Toggle Menu -------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = '0';
+        }
+
+        function hideMenu() {
+            navLinks.style.right = '-200px';
+        }
+    </script>
+
+
+</body>
+
+</html>
